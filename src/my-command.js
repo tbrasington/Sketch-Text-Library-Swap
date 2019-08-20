@@ -22,7 +22,7 @@ function doSomething(object) {
 }
 
 // start the recursion
-document.pages.forEach(doSomething);
+document.selectedPage.layers.forEach(doSomething);
 
 export default function () {
   sketch.UI.message("It's alive 🙌")
